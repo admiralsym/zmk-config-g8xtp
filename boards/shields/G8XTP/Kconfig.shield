@@ -1,5 +1,3 @@
-# Copyright (c) 2020 Pete Johanson
-# SPDX-License-Identifier: MIT
-
-config SHIELD_G8XTP
-    def_bool $(shields_list_contains,G8XTP)
+config SHIELD_G8X
+    def_bool $(shields_list_contains,g8xtp)
+    select SPI
